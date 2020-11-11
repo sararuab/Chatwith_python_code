@@ -1,7 +1,6 @@
-from PyQt5 import QtCore, QtGui, QtWidgets, QtSql
+from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QDialog, QGridLayout, QMessageBox, QLabel, QPushButton, QLineEdit, QSpinBox
-from PyQt5.QtSql import QSqlDatabase, QSqlQuery
 from ui_register import source
 import mysql.connector as mc
 import mysql.connector
