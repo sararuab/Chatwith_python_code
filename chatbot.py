@@ -29,10 +29,13 @@ trainer.train("chatterbot.corpus.spanish")
 trainer.train("./chattrain.yml")
 trainer.train("./psico.yml")
 trainer.train("./conversation.yml")
+trainer.train("./covid.yml")
+trainer.train("./mentals.yml")
+trainer.train("./medcurio.yml")
 
 levenshtein_distance = LevenshteinDistance()
 
-error=Statement('Te has equivocado')#convertimos una frase en un tipo statement
+error=Statement('Te has equivocado')
 request=""
 entradaDelUsuarioAnterior=""
 
